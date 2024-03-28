@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- Information about the web page -->
-    <!--This is the comment tag-->
-    <title>Arjun Khandelwal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun Khandelwal | Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <!--Contents of the webpage-->
-    <p>Welcome to my personal website!!</p>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Hi, I'm Arjun, and this is my personal website.</p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am trying to save the world from potentially evil AI. Or atleast
+          thats the goal.
+        </p>
+        When
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>
+          Showcase your projects, work experience, or any other relevant
+          information.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; [Current Year] Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
